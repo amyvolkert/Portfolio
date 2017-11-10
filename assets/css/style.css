@@ -1,3 +1,61 @@
-.navbar-custom {
+body {
+  margin-bottom: 150px;
+  background-image: url("../images/symphony.png");
+}
+
+.navbar-header-custom {
+  padding-left: 30px;
+}
+
+.about-me-content {
+  max-width: 100%;
+  padding: 30px;
+  margin-top: 28px;
   background-color: #fff;
+}
+
+.about-me-content > p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #bbc;
+}
+
+.about-me-heading {
+  margin-bottom: 25px;
+}
+
+.hr-custom {
+  padding-bottom: 25px;
+}
+
+#amy-image {
+  float: left;
+  height: 250px;
+  margin-right: 20px;
+}
+
+.connect-with-me-content {
+  max-width: 100%;
+  padding: 30px;
+  margin-top: 28px;
+  background-color: #fff;
+}
+
+.connect-with-me-heading {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#connect-with-me-images {
+  margin-left: 53px;
+}
+
+.connect-with-me-github {
+  height: 85px;
+  width: 85px;
+  margin-right: 15px;
+}
+.connect-with-me-linkedin {
+  height: 85px;
+  width: 85px;
 }
