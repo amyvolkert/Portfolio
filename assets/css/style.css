@@ -50,10 +50,19 @@ body {
   margin-bottom: 25px;
 }
 
+.form-input {
+  margin-top: 8px;
+}
+
+label {
+  color: #bbc;
+  font-weight: lighter;
+}
+
 input[type=text], select {
   width: 100%;
   padding: 8px;
-  margin: 8px 0;
+  margin: 6px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -61,7 +70,7 @@ input[type=text], select {
 }
 
 input[type=text]:focus {
-  outline: 2px solid grey;
+  outline: 2px solid gray;
 }
 
 textarea {
@@ -89,6 +98,18 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #d06b46;
+}
+
+/*portfolio*/
+.portfolio-content {
+  max-width: 100%;
+  padding: 30px;
+  margin-top: 28px;
+  background-color: #fff;
+}
+
+.portfolio-heading {
+  margin-bottom: 25px;
 }
 
 /*connect*/
