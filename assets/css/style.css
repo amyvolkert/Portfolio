@@ -1,10 +1,13 @@
 body {
-  margin-bottom: 150px;
   background-image: url("../images/symphony.png");
 }
 
 .navbar-header-custom {
   padding-left: 30px;
+}
+
+.navbar-brand-custom {
+  letter-spacing: 1px;
 }
 
 .about-me-content {
@@ -51,11 +54,30 @@ body {
 }
 
 .connect-with-me-github {
-  height: 85px;
-  width: 85px;
+  height: 55px;
+  width: 55px;
   margin-right: 15px;
 }
 .connect-with-me-linkedin {
-  height: 85px;
-  width: 85px;
+  height: 55px;
+  width: 55px;
+}
+
+footer {
+  max-width: 100%;
+  height: 52px;
+  margin-top: 30px;
+  background-color: #787878;
+}
+
+.footer-top {
+  max-width: 100%;
+  height: 6px;
+  /*margin-top: 30px;*/
+  background-color: #E95420;
+}
+
+.footer-text {
+  padding-top: 18px;
+  color: #fff;
 }
