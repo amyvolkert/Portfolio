@@ -2,6 +2,7 @@ body {
   background-image: url("../images/symphony.png");
 }
 
+/*navbar*/
 .navbar-header-custom {
   padding-left: 30px;
 }
@@ -100,7 +101,7 @@ input[type=submit]:hover {
     background-color: #d06b46;
 }
 
-/*portfolio*/
+/*portfolio.html*/
 .portfolio-content {
   max-width: 100%;
   padding: 30px;
