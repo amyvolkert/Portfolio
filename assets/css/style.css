@@ -172,3 +172,10 @@ footer {
   padding-top: 18px;
   color: #fff;
 }
+
+/*media query*/
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
