@@ -128,28 +128,28 @@ input[type=submit]:hover {
 }
 
 /*connect*/
-.connect-with-me-content {
+.connect-content {
   max-width: 100%;
   padding: 30px;
   margin-top: 28px;
   background-color: #fff;
 }
 
-.connect-with-me-heading {
+.connect-heading {
   margin-bottom: 15px;
   text-align: center;
 }
 
-#connect-with-me-images {
+#connect-images {
   text-align: center;
 }
 
-.connect-with-me-github {
+.connect-github {
   height: 65px;
   width: 65px;
 }
 
-.connect-with-me-linkedin {
+.connect-linkedin {
   height: 65px;
   width: 65px;
 }
@@ -174,8 +174,7 @@ footer {
 }
 
 /*media query*/
-@media only screen and (max-width: 500px) {
-    body {
-        
-    }
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+  max-width: 980px;
 }
