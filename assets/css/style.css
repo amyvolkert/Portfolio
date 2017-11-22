@@ -26,16 +26,17 @@ body {
 }
 
 .about-me-heading {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+  font-size: 22px;
 }
 
 .hr-custom {
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 #amy-image {
   float: left;
-  height: 250px;
+  height: 170px;
   margin-right: 20px;
 }
 
@@ -137,6 +138,7 @@ input[type=submit]:hover {
 
 .connect-heading {
   margin-bottom: 15px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -145,13 +147,13 @@ input[type=submit]:hover {
 }
 
 .connect-github {
-  height: 65px;
-  width: 65px;
+  height: 45px;
+  width: 45px;
 }
 
 .connect-linkedin {
-  height: 65px;
-  width: 65px;
+  height: 45px;
+  width: 45px;
 }
 
 /*footer*/
@@ -174,7 +176,7 @@ footer {
 }
 
 /*media query*/
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .wrapper {
-  max-width: 980px;
+  max-width: 980px;*/
 }
