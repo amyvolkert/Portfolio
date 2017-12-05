@@ -128,8 +128,18 @@ input[type=submit]:hover {
 }
 
 #petfinder-image {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
 
+#otherapps-image {
+  width: 100%;
+  height: auto;
+}
+
+.placeholder-image {
+  max-width: 100%;
+  height: 250px;
 }
 
 /*connect*/
