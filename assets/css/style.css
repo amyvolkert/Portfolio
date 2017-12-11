@@ -129,7 +129,15 @@ input[type=submit]:hover {
 
 .portfolio-image {
   width: 100%;
-  height: auto;
+  height: 250px;
+}
+
+h3 {
+  margin-top: 3px;
+}
+
+.portfolio-row {
+  padding-top: 10px;
 }
 
 /*connect*/
